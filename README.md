@@ -128,6 +128,7 @@ This leaves us with a few tasks that can be done in the future:
  - Having end-to-end automation.
 
 **Stretch future goal**
+
 As more clients request for instances of jupyter notebook, R studio and Linux Desktops, we scale the pods.
 In Kubernetes, this can be done easily using a feature called “Pod AutoScaler”. But what happens when the kubernetes workers have reached the maximum number of pods it can handle?
 
